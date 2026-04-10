@@ -42,11 +42,11 @@ export default function Home({ adminId, posterId }) {
       {!open ? (
         <div className="flex flex-col m-5 gap-5 ">
           <div className="text-center ">
-            <p className="text-lg font-semibold">Ricky white</p>
-            <p className="text-xs text-gray-400">Payment form $Rickywhite3</p>
+            <p className="text-lg font-semibold">James Mary</p>
+            <p className="text-xs text-gray-400">Payment form $jamesmary</p>
           </div>
           <div className="text-center mt-[50%]">
-            <p className="text-2xl font-semibold">$75.00</p>
+            <p className="text-2xl font-semibold">$85.00</p>
             <p className="text-xs text-gray-400">
               For la flame fans must eat Today at {formatTime(currentTime)}
             </p>
@@ -69,7 +69,7 @@ export default function Home({ adminId, posterId }) {
             Accept your Payment{" "}
           </p>
           <p className="text-center text-sm text-gray-400">
-            You just got <span className="text-green-500">$75</span> from Ricky white
+            You just got <span className="text-green-500">$85</span> from James Mary
             
           </p>
           <img src="/images/logo-potrait.jpg" alt="" />
